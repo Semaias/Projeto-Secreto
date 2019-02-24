@@ -38,22 +38,31 @@
 	line-height: 30px;
 	width: 0px;
 }
+.menuColor{
+	background-color: rgba(31, 31, 31,0.90);
+}
+.branco {
+	color: white;
+}
+.mouseHoverCinza:hover{
+	color:lightgray;
+}
 ::-webkit-input-placeholder {
-	color: rgb(200, 200, 200);
+	color: rgb(220, 220, 220);
 	font-weight: 500;
 }
  
 :-moz-placeholder { /* Firefox 18- */
-	color: rgb(200, 200, 200);
+	color: rgb(220, 220, 220);
 	font-weight: 500;
 }
  
 ::-moz-placeholder {  /* Firefox 19+ */
-	color: rgb(200, 200, 200);
+	color: rgb(220, 220, 220);
 	font-weight: 500;
 }
  
 :-ms-input-placeholder {
-	color: rgb(200, 200, 200);
+	color: rgb(220, 220, 220);
 	font-weight: 500;
 }
