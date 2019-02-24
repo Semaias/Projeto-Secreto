@@ -1,3 +1,6 @@
+body{
+	background-color: rgb(100, 100, 100)
+}
 .search-box{
 	position: absolute;
 	right: 5%;
@@ -48,21 +51,21 @@
 	color:lightgray;
 }
 ::-webkit-input-placeholder {
-	color: rgb(220, 220, 220);
-	font-weight: 500;
+	color: rgb(240, 240, 240);
+	font-weight: 400;
 }
  
 :-moz-placeholder { /* Firefox 18- */
-	color: rgb(220, 220, 220);
-	font-weight: 500;
+	color: rgb(240, 240, 240);
+	font-weight: 400;
 }
  
 ::-moz-placeholder {  /* Firefox 19+ */
-	color: rgb(220, 220, 220);
-	font-weight: 500;
+	color: rgb(240, 240, 240);
+	font-weight: 400;
 }
  
 :-ms-input-placeholder {
-	color: rgb(220, 220, 220);
-	font-weight: 500;
+	color: rgb(240, 240, 240);
+	font-weight: 400;
 }
