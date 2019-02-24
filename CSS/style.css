@@ -1,5 +1,5 @@
-body{
-	background-color: rgb(100, 100, 100)
+.body{
+	background-color: lightgray;
 }
 .search-box{
 	position: absolute;
