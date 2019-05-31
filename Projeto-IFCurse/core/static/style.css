@@ -1,0 +1,72 @@
+.body{
+  background-color: lightblue;
+}
+.search-box{
+  position: absolute;
+  right: 5%;
+  background-color: rgba(30,144,255,1.00);
+  height: 50px;
+  transform: translate(0%, 0%);
+  border-radius: 50px;
+  padding: 10px;
+}
+.search-box:hover > .search-txt{
+  width: 240px;
+  padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+  background: none;
+}
+.search-btn{
+  color: rgba(31,31,31,1.00);
+  float: right;
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(30,144,255,1.00);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 18px;
+  transition: 0.4s;
+  line-height: 30px;
+  width: 0px;
+}
+.menuColor{
+  background-color: rgba(31, 31, 31,0.90);
+  height: 65px;
+}
+.branco {
+  color: white;
+}
+.mouseHoverCinza:hover{
+  color:lightgray;
+}
+::-webkit-input-placeholder {
+  color: rgb(240, 240, 240);
+  font-weight: 400;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: rgb(240, 240, 240);
+  font-weight: 400;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: rgb(240, 240, 240);
+  font-weight: 400;
+}
+
+:-ms-input-placeholder {
+  color: rgb(240, 240, 240);
+  font-weight: 400;
+}
