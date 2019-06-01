@@ -1,0 +1,41 @@
+.imgprofile {
+  height: 100%;
+  width: 150px;
+}
+
+.profile{
+  cursor: pointer;
+  width: 100%px;
+  height: 400px;
+  background-color: rgb(210, 255, 210);
+  shape-outside: border-box;
+  border: none;
+}
+
+.frenteprofile, .costaprofile{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform.5s linear;
+}
+
+.profile:hover > .frenteprofile {transform: perspective(600px) rotateY(-180deg);}
+.profile:hover > .costaprofile {transform: perspective(600px) rotateY(0deg);}
+
+.frenteprofile { transform: perspective(600px) rotateY(0deg); }
+.costaprofile { transform: perspective(600px) rotateY(180deg); }
+
+.costaprofile-content {
+  text-align: center;
+}
+
+.profileMargemTopo{margin-top: 70px}
+.profileMargemTopo2{margin-top: 15px}
+.profileMargemTopo3{margin-top: 30px}
+
+.margemlateral {
+	padding-right: 30px;
+	padding-left: 10px;
+}
