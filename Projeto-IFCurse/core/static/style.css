@@ -5,6 +5,10 @@ html, body {
   width: 100%;
 }
 
+*{
+  font-family: ubuntu;
+}
+
 div.body-content{
   padding-bottom: 100px;
 }
@@ -57,6 +61,13 @@ div.body-content{
   background-color: rgba(31, 31, 31,0.90);
   height: 65px;
 }
+.rodapeColor{
+  background-color: rgba(31, 31, 31,0.90);
+  height: 125px;
+}
+
+.fonteMenu{ font-size: 20px; }
+.fonteMenu2{ font-size: 30px; }
 
 .rodape {
   height: 200px;
@@ -76,12 +87,14 @@ div.body-content{
 
 .margemTopo { margin-top: 50px }
 .margemTopo2 { margin-top: 25px}
+.margemTopo3 {margin-top: -3px }
 
 .branco { color: white; }
 .verdeClaro { color: rgba(240, 255, 240, 0.8)}
 
 .mouseHoverCinza:hover{
   color:lightgray;
+  text-decoration: none;
 }
 .justificado{ text-align: justify; text-indent: 20px }
 .centralizado{ text-align: center;}
@@ -95,6 +108,9 @@ div.body-content{
   cursor: pointer;
   width: 400px;
   height: 250px;
+  background-color: rgb(210, 210, 255);
+  shape-outside: border-box;
+  border: none;
 }
 
 .frenteCard, .costaCard{
@@ -103,7 +119,7 @@ div.body-content{
   overflow: hidden;
   backface-visibility: hidden;
   position: absolute;
-  transition: transform.6s linear;
+  transition: transform.5s linear;
 }
 
 .card:hover > .frenteCard {transform: perspective(600px) rotateY(-180deg);}
@@ -116,9 +132,11 @@ div.body-content{
   text-align: center;
 }
 
-.rodape{
-  position: absolute;
+.footer {
+  position: fixed;
+  left: 0;
   bottom: 0;
+  width: 100%;
 }
 
 :-moz-placeholder { /* Firefox 18- */
