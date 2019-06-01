@@ -2,8 +2,28 @@
 {% load static %}
 
 {% block conteudo %}
-<div class="margemTopo2">
-  <h2 class="verdeClaro">Lorem ipsum</h2>
-  <p class="verdeClaro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  {% endblock %}
+<div class="row">
+  <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xg-4 margemTopo2">
+    <div class="card middle">
+      <div class="frenteCard margemTopo2">
+        <p class="centralizado">
+          <img src="{% static 'img/logoif.svg.png' %}" class="imgCard" alt="Logo do IFRN">
+        </p>
+        <p class="centralizarEespacar"> O que é o IFRN? </p>
+      </div>
+
+      <div class="costaCard margemTopo2">
+        <div class="costaCard-content">
+          <h3>Me permita apresentar</h3>
+          <p>O IFRN é Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xg-8 margemTopo2">
+    <h2 class="verdeClaro">Lorem ipsum</h2>
+    <p class="verdeClaro justificado">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
 </div>
+{% endblock %}

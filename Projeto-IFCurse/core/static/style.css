@@ -2,6 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  width: 100%;
 }
 
 div.body-content{
@@ -68,7 +69,8 @@ div.body-content{
 
 .centralizarEespacar {
   text-align: center;
-  letter-spacing: 15px;
+  letter-spacing: 10px;
+  font-size: 30px;
   font-weight: 600;
 }
 
@@ -81,9 +83,42 @@ div.body-content{
 .mouseHoverCinza:hover{
   color:lightgray;
 }
-::-webkit-input-placeholder {
-  color: rgb(240, 240, 240);
-  font-weight: 400;
+.justificado{ text-align: justify; text-indent: 20px }
+.centralizado{ text-align: center;}
+
+.imgCard {
+  height: 100%;
+  width: 100px;
+}
+
+.card{
+  cursor: pointer;
+  width: 400px;
+  height: 250px;
+}
+
+.frenteCard, .costaCard{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform.6s linear;
+}
+
+.card:hover > .frenteCard {transform: perspective(600px) rotateY(-180deg);}
+.card:hover > .costaCard {transform: perspective(600px) rotateY(0deg);}
+
+.frenteCard { transform: perspective(600px) rotateY(0deg); }
+.costaCard { transform: perspective(600px) rotateY(180deg); }
+
+.costaCard-content {
+  text-align: center;
+}
+
+.rodape{
+  position: absolute;
+  bottom: 0;
 }
 
 :-moz-placeholder { /* Firefox 18- */
