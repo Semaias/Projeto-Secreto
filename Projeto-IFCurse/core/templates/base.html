@@ -26,33 +26,55 @@
   <title>IFCurse</title>
 </head>
 <body class="body">
-  <div class="container-fluid">
-    <div class="row">
-      <nav class="navbar col-lg-12 col-xg-12 navbar-expand-lg menuColor">
-        <a class="navbar-brand branco mouseHoverCinza" href="#">IFCurse</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link branco mouseHoverCinza" href="#">Página principal <span class="sr-only"> (current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link branco mouseHoverCinza" href="#">Não sei ainda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link branco mouseHoverCinza" href="#">Talvez tenha outra coisa</a>
-            </li>
-          </ul>
-        </div>
-        <div class="search-box">
-          <input class="search-txt" type="text" name="" placeholder="Pesquisar">
-          <a class="search-btn" href="#">
-            <i class="fas fa-search"></i>
-          </a>
-        </div>
-      </nav>
+  <div id="wrapper">
+    <div class="container-fluid body-content">
+      <!-- -- -- -- -- -- -- -- -- -- -- ÍNICIO NAVBAR -- -- -- -- -- -- -- -- -- -->
+      <div class="row">
+        <nav class="navbar col-lg-12 col-xg-12 navbar-expand-lg menuColor">
+          <a class="navbar-brand branco mouseHoverCinza" href="#">IFCurse</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link branco mouseHoverCinza" href="#">Página principal <span class="sr-only"> (current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link branco mouseHoverCinza" href="#">Não sei ainda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link branco mouseHoverCinza" href="#">Talvez tenha outra coisa</a>
+              </li>
+            </ul>
+          </div>
+          <div class="search-box">
+            <input class="search-txt" type="text" name="" placeholder="Pesquisar">
+            <a class="search-btn" href="#">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+        </nav>
+      </div>
+      <!-- -- -- -- -- -- -- -- -- -- -- FINAL NAVBAR -- -- -- -- -- -- -- -- -- -->
+
+      <!-- -- -- -- -- -- -- -- -- -- -- ÍNICIO CONTEÚDO -- -- -- -- -- -- -- -- -- -->
+      {% block conteudo %}
+      
+      {% endblock %}
+      <!-- -- -- -- -- -- -- -- -- -- -- FINAL CONTEÚDO -- -- -- -- -- -- -- -- -- -->
+
+      <!-- -- -- -- -- -- -- -- -- -- -- ÍNICIO RODAPÉ -- -- -- -- -- -- -- -- -- -->
+      <div class="row">
+        <footer class="col-lg-12 col-xg-12 footer rodape" id="rodape">
+          <div class="margemTopo">
+            <h3 class="branco centralizarEespacar">Teste</h3>
+            <p class="branco centralizarEespacar">Outro Teste</p>
+          </div>
+        </footer>
+
+      </div>
+      <!-- -- -- -- -- -- -- -- -- -- -- FINAL RODAPÉ -- -- -- -- -- -- -- -- -- -->
     </div>
   </div>
 </body>

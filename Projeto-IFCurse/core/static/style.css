@@ -1,5 +1,16 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+div.body-content{
+  padding-bottom: 100px;
+}
+
 .body{
-  background-color: lightblue;
+  background-color: rgb(50, 50, 50);
+  height: 100%;
 }
 .search-box{
   position: absolute;
@@ -45,9 +56,28 @@
   background-color: rgba(31, 31, 31,0.90);
   height: 65px;
 }
-.branco {
-  color: white;
+
+.rodape {
+  height: 200px;
+  background-color: rgba(31, 31, 31,0.90);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
 }
+
+.centralizarEespacar {
+  text-align: center;
+  letter-spacing: 15px;
+  font-weight: 600;
+}
+
+.margemTopo { margin-top: 50px }
+.margemTopo2 { margin-top: 25px}
+
+.branco { color: white; }
+.verdeClaro { color: rgba(240, 255, 240, 0.8)}
+
 .mouseHoverCinza:hover{
   color:lightgray;
 }
