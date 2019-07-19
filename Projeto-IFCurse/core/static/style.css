@@ -5,13 +5,8 @@ html, body {
     width: 100%;
 }
 
-*{
-    font-family: ubuntu;
-}
-
-div.body-content{
-    padding-bottom: 100px;
-}
+*{ font-family: ubuntu; }
+div.body-content{ padding-bottom: 100px; }
 
 .body{
     background-color: rgb(50, 50, 50);
