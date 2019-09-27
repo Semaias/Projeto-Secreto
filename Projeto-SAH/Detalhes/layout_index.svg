@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="layout_index.svg">
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 148.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="210 : 148.5 : 1"
+       inkscape:persp3d-origin="105 : 99 : 1"
+       id="perspective4561" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="507.29102"
+     inkscape:cy="1053.2278"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="768"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#14c86e;fill-opacity:1;stroke:none;stroke-width:0.73106688;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:60.20000076;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="rect4537"
+       width="208.77257"
+       height="20"
+       x="0.75595242"
+       y="0.58696848"
+       ry="1.9102612" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0;font-family:sans-serif;letter-spacing:0.26458332px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="5.3459864"
+       y="15.941508"
+       id="text4541"><tspan
+         sodipodi:role="line"
+         id="tspan4539"
+         x="5.3459864"
+         y="15.941508"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.11111069px;font-family:monospace;-inkscape-font-specification:'monospace Bold';stroke-width:0.26458332">SAGHO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0;font-family:sans-serif;letter-spacing:0.26458332px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="81.284172"
+       y="16.158243"
+       id="text4541-6"><tspan
+         sodipodi:role="line"
+         id="tspan4539-2"
+         x="81.284172"
+         y="16.158243"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;font-family:monospace;-inkscape-font-specification:'monospace Bold';stroke-width:0.26458332">Login | Calendário</tspan></text>
+    <g
+       id="g4595"
+       transform="matrix(0.82299939,0.85373779,-0.85373779,0.82299939,44.207989,-164.41093)">
+      <rect
+         ry="1.0522174"
+         y="11.197227"
+         x="194.91614"
+         height="4.4426951"
+         width="1.7008928"
+         id="rect4577"
+         style="opacity:1;fill:#148cc8;fill-opacity:1;stroke:none;stroke-width:1.11231875;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:60.20000076;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <circle
+         r="1.8458302"
+         cy="10.545531"
+         cx="195.76659"
+         id="path4579"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#148cc8;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:60.20000076;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+    </g>
+  </g>
+</svg>
